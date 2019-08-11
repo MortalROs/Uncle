@@ -1,6 +1,6 @@
 {
   "name": "uncle",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Uncle",
   "main": "app.js",
   "author": {
@@ -11,8 +11,8 @@
     "clean": "tsc --build --clean"
   },
   "devDependencies": {
-    "@types/node": "^8.10.51",
-    "typescript": "^3.5.3"
+    "@types/node": "^8.0.14",
+    "typescript": "^3.2.2"
   },
   "dependencies": {
     "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
