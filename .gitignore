@@ -87,3 +87,6 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 auth.json
+Uncle.sln
+.vs/Uncle/v16/.suo
+.vs/Uncle/v16/.suo
