@@ -1,0 +1,3 @@
+D:\MEGA\WORKSPACE\Boogeyman\obj\Debug\Boogeyman.njsprojAssemblyReference.cache
+D:\MEGA\WORKSPACE\Boogeyman\obj\Debug\Boogeyman.njsproj.CoreCompileInputs.cache
+D:\MEGA\WORKSPACE\Boogeyman\bin\Microsoft.NodejsTools.WebRole.dll

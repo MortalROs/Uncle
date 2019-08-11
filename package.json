@@ -1,0 +1,22 @@
+{
+  "name": "uncle",
+  "version": "0.0.1",
+  "description": "Uncle",
+  "main": "app.js",
+  "author": {
+    "name": "MortalROs"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "devDependencies": {
+    "@types/node": "^8.10.51",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "^11.5.1",
+    "winston": "^3.2.1"
+  }
+}
