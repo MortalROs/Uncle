@@ -17,6 +17,7 @@ bot.on('ready', function (evt) {
     logger.info('Logged in as: ');
     logger.info(bot.username + ' - (' + bot.id + ')');
 });
+
 bot.on('message', function (user, userID, channelID, message, evt) {
     // Our bot needs to know if it will execute a command
     // It will listen for messages that will start with `!`
@@ -36,6 +37,17 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 bot.sendMessage({
                     to: channelID,
                     message: 'Pong!'
+                });
+                break;
+            case 'help':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'Poti sa tipi ca nimeni nu te poate ajuta!'
+                });
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: '<:ultraunchiu:610196002711928853> <:ultraunchiu:610196002711928853> <:ultraunchiu:610196002711928853> <:ultraunchiu:610196002711928853> <:ultraunchiu:610196002711928853>'
                 });
                 break;
             // Just add any case commands if you want to..

@@ -38,6 +38,16 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     message: 'Pong!'
                 });
                 break;
+            case 'help':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'Poti sa tipi ca nimeni nu te poate ajuta!'
+                });
+                bot.sendMessage({
+                    to: channelID,
+                    message: '<:ultraunchiu:610196002711928853> <:ultraunchiu:610196002711928853> <:ultraunchiu:610196002711928853> <:ultraunchiu:610196002711928853> <:ultraunchiu:610196002711928853>'
+                });
+                break;
             // Just add any case commands if you want to..
         }
     }
