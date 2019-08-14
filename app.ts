@@ -16,14 +16,17 @@ client.on('message', message => {
     if (mess.substring(0, 4) == '!ben') {
         var args = mess.substring(5).split(' ');
         var cmd = args[0];
-
-        args = args.splice(1);
+        console.log(args[0]);
         switch (cmd) {
             // !ping
             case 'ping':
                 message.channel.send('Pong!')
                 break;
-            // Just add any case commands if you want to..
+            case 'send':
+                for (var i = 1; i < args.lenght(); i++) {
+                    message.channel.send(args[i])
+                }
+                break;
         }
     }
 });
