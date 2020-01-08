@@ -1,0 +1,3 @@
+D:\MEGA\WORKSPACE\Uncle\obj\Debug\Uncle.njsprojAssemblyReference.cache
+D:\MEGA\WORKSPACE\Uncle\obj\Debug\Uncle.njsproj.CoreCompileInputs.cache
+D:\MEGA\WORKSPACE\Uncle\bin\Microsoft.NodejsTools.WebRole.dll
